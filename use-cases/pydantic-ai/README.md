@@ -27,7 +27,7 @@ cd /path/to/my-agent-project
 /execute-pydantic-ai-prp PRPs/generated_prp.md
 ```
 
-If you are not using Claude Code, you can simply tell your AI coding assistant to use the generate-pydantic-ai-prp and execute-pydantic-ai-prp slash commands in .claude/commands as prompts.
+If you are not using Gemini, you can simply tell your AI coding assistant to use the generate-pydantic-ai-prp and execute-pydantic-ai-prp slash commands in .gemini/commands as prompts.
 
 ## 📖 What is This Template?
 
@@ -82,9 +82,9 @@ This implements the complete agent based on the PRP, including:
 
 ```
 pydantic-ai/
-├── CLAUDE.md                           # Pydantic AI global development rules
+├── GEMINI.md                           # Pydantic AI global development rules
 ├── copy_template.py                    # Template deployment script
-├── .claude/commands/
+├── .gemini/commands/
 │   ├── generate-pydantic-ai-prp.md     # PRP generation for agents
 │   └── execute-pydantic-ai-prp.md      # PRP execution for agents
 ├── PRPs/

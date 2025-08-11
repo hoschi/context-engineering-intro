@@ -59,7 +59,7 @@ If the answer is no, don't build it. Keep it simple, focused, and functional.
 
 ### Model Provider Requirements
 - [ ] **OpenAI**: `openai:gpt-4o` or `openai:gpt-4o-mini`
-- [ ] **Anthropic**: `anthropic:claude-3-5-sonnet-20241022` or `anthropic:claude-3-5-haiku-20241022`
+- [ ] **Anthropic**: `anthropic:claude-3-opus-20240229` or `anthropic:claude-3-sonnet-20240229`
 - [ ] **Google**: `gemini-1.5-flash` or `gemini-1.5-pro`
 - [ ] **Fallback Strategy**: Multiple provider support with automatic failover
 
